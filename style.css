@@ -1,0 +1,22 @@
+.attribution {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    margin-top: 10px;
+  }
+  
+  .attribution a {
+    color: hsl(0, 0%, 59%);
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: hsl(0, 0%, 59%);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: hsl(223, 87%, 63%);
+    text-decoration: underline;
+  }
