@@ -1,22 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  background: url(components/images/bg-top.svg) right top,
+    url(components/images/bg-bottom.svg) left bottom -881px hsl(240, 78%, 98%);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #6e728e;
+  text-align: center;
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+#value {
+  color: #4a4d60;
+  font-size: 72px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: -2.16px;
+}
+
+p {
+  color: #6e728e;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  border-top: 1px solid #4a4d60;
+}
+
+button {
+  width: 288px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #a2a7f0 0%, #696edd 100%);
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.393px;
+}
+
+.selectHover {
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  color: #6e728e;
+  text-align: right;
+  font-size: 15px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  opacity: 0.5;
+}
+
+.types {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 64.5px;
+}
+
+.whiteBox {
+  width: 350px;
+  height: 453px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px 0px 0px 10px;
+  background: #fff;
+  box-shadow: 0px 20px 40px 0px rgba(212, 210, 244, 0.5);
+}
+
+.purpleBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #a2a7f0 0%, #696edd 100%);
+  box-shadow: 0px 20px 40px 0px rgba(212, 210, 244, 0.5);
+}
+
 .attribution {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    color: hsl(0, 0%, 59%);
-    margin-top: 10px;
-  }
-  
-  .attribution a {
-    color: hsl(0, 0%, 59%);
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: hsl(0, 0%, 59%);
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: hsl(223, 87%, 63%);
-    text-decoration: underline;
-  }
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(236, 72%, 79%);
+  margin-top: 10px;
+}
+
+.attribution a {
+  color: hsl(236, 72%, 79%);
+  text-decoration: none;
+}
+
+a:visited {
+  color: hsl(236, 72%, 79%);
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(237, 63%, 64%);
+  text-decoration: underline;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 56px;
+  height: 32px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider-red {
+  position: absolute;
+  cursor: pointer;
+  border-radius: 34px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(162, 167, 240);
+  background: linear-gradient(
+    153deg,
+    rgba(162, 167, 240, 1) 10%,
+    rgba(105, 110, 221, 1) 64%
+  );
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider-red:before {
+  position: absolute;
+  border-radius: 34px;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider-red {
+  background-color: #fe2712;
+}
+
+input:focus + .slider-red {
+  box-shadow: 0 0 1px #fe2712;
+}
+
+input:checked + .slider-red:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
