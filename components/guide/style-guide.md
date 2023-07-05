@@ -17,8 +17,8 @@ The designs were created to the following widths:
 
 - Very Light Grayish Blue: hsl(240, 78%, 98%)
 - Light Grayish Blue: hsl(234, 14%, 74%)
-- Grayish Blue: hsl(233, 13%, 49%)
-- Dark Grayish Blue: hsl(232, 13%, 33%)
+- Grayish Blue: hsl(233, 13%, 49%) 
+- Dark Grayish Blue: hsl(232, 13%, 33%) 
 
 ## Typography
 
@@ -30,3 +30,6 @@ The designs were created to the following widths:
 
 - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
 - Weight: 700
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+font-family: 'Montserrat', sans-serif;
