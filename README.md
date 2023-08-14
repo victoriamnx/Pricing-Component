@@ -11,9 +11,9 @@ This is a solution to the [Pricing component with toggle on Frontend Mentor.](ht
 
 # Result
 
-![image](https://github.com/victoriamnx/Ping-Coming-Soon-Page/assets/96449803/2ad43f1a-7371-4fd5-b955-28ccabede0c5)
-![image](https://github.com/victoriamnx/Ping-Coming-Soon-Page/assets/96449803/da58c90f-486d-48d3-a8e5-d53a83dfc1b2)
-![image](https://github.com/victoriamnx/Ping-Coming-Soon-Page/assets/96449803/30a6bdeb-aae6-4894-ade5-fe977e98ae32)
+![image](https://github.com/victoriamnx/Pricing-Component/assets/96449803/639c4524-dc0a-4c46-9fc1-b98bca88ea04)
+![image](https://github.com/victoriamnx/Pricing-Component/assets/96449803/285098c6-8abd-4543-9ac1-384c6118630e)
+![image](https://github.com/victoriamnx/Pricing-Component/assets/96449803/5972880d-1a67-40ee-b255-d508a3d7e3e2)
 
 # Links
 
